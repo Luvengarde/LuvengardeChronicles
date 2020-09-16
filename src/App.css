@@ -1,7 +1,12 @@
 .container{
-    height: 300px;
+    height: 100vh;
+    background-image: url(./assets/magic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.card {
+    margin: auto;
+}
 .card-img-bottom {
     width: auto;
   height: auto;
