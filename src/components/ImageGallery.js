@@ -34,7 +34,7 @@ const SlideShow = () => {
     return (
       <div className='container'>
         {images != null  &&
-        <Card style={{ width: '50%'}}>
+        <Card style={{ width: '40%'}}>
         <Card.Body>
         <Card.Title>BfliesInJuly</Card.Title>
         </Card.Body>
