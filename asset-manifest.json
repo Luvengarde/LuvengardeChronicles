@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/LuvengardeChronicles/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/LuvengardeChronicles/static/js/main.cd95a894.chunk.js",
+    "main.js.map": "/LuvengardeChronicles/static/js/main.cd95a894.chunk.js.map",
+    "runtime-main.js": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js",
+    "runtime-main.js.map": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js.map",
+    "static/js/2.eb1d094a.chunk.js": "/LuvengardeChronicles/static/js/2.eb1d094a.chunk.js",
+    "static/js/2.eb1d094a.chunk.js.map": "/LuvengardeChronicles/static/js/2.eb1d094a.chunk.js.map",
+    "index.html": "/LuvengardeChronicles/index.html",
+    "precache-manifest.69979c98314c560a57d9047cba872253.js": "/LuvengardeChronicles/precache-manifest.69979c98314c560a57d9047cba872253.js",
+    "service-worker.js": "/LuvengardeChronicles/service-worker.js",
+    "static/css/main.27fd15f6.chunk.css.map": "/LuvengardeChronicles/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.eb1d094a.chunk.js.LICENSE.txt": "/LuvengardeChronicles/static/js/2.eb1d094a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5abb13c3.js",
+    "static/js/2.eb1d094a.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.cd95a894.chunk.js"
+  ]
+}
