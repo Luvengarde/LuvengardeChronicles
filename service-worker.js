@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LuvengardeChronicles/precache-manifest.69979c98314c560a57d9047cba872253.js"
+  "/LuvengardeChronicles/precache-manifest.5660b13dbd09b97a98a3627495730362.js"
 );
 
 self.addEventListener('message', (event) => {
