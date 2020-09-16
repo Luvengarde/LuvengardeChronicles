@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import Card from 'react-bootstrap/Card'
 
 
 const SlideShow = () => {
@@ -31,12 +32,16 @@ const SlideShow = () => {
   }
 
     return (
-      <div>
-        <h1>Hello</h1>
-              {images != null  &&
-              <img src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'></img>
-              }       
-        </div>
+      <div className='container'>
+        {images != null  &&
+        <Card style={{ width: '100%'}}>
+        <Card.Body>
+        <Card.Title>BfliesInJuly</Card.Title>
+        </Card.Body>
+        <Card.Img variant="bottom" src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'/>
+        </Card>
+        }       
+      </div>
       
     );
 };
