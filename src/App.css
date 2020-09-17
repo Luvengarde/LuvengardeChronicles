@@ -11,7 +11,7 @@
     margin: 0 auto;
     margin-top: -2%;  
 }
-.spellbook img {
+.spellbook > img {
     display: flex;
     width: auto;
     padding: 0 1% 0 1%;
