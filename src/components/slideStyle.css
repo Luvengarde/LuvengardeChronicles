@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.spellbook{
+    position: relative !important;
+    display: flex;
+    width: max-content;
+    padding: 0 1% 0 1%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    margin-top: -2%;  
+}
+.spellbook > img {
+    display: flex;
+    width: auto;
+    padding: 0 1% 0 1%;
+    max-width: 100%;
+    margin: 0 auto;
+    filter: contrast(85%) brightness(83%) saturate(130%);  
+}
+.chapter {
+    position: absolute !important;
+    top: 5%;
+    left: 14%;
+    width: 35%;
+    height: 80%;
+}
+.card {
+    background-image: url(../assets/backgroundd.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute !important;
+    top: 30%;
+    right: 11%;
+    background-color: transparent !important;
+    border: none !important;
+    width: 36%;
+    height: 60%;
+
+}
+
+.card-img-bottom {
+        object-fit: contain;
+        max-width: 90%;
+        padding-left: 15%;
+        filter: contrast(75%) brightness(83%) saturate(60%);
+        height: 60%;
+        width: 40%;
+}
+
+.containeru {
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+.chroniclesTitle {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Niconne', cursive;
+
+}
+
+/*Writings - keep for further development*/
+
+/* .chapterTitle {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+}
+.story { */
+    /* font-family: 'Niconne', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* display: flex;
+    flex-flow: column wrap; */
+/* }
+ .story p:first-child:first-letter{
+    font-size: 2vw;
+    font-family: 'Niconne', cursive;
+    
+} */
+
+
+.component-wrapper {
+    transition: height 0.5s;
+    overflow: hidden;
+  }
+   
+  .before-enter {
+    opacity: 0;
+  }
+   
+  .entering {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+   
+  .before-leave {
+    opacity: 1;
+  }
+   
+  .leaving {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }

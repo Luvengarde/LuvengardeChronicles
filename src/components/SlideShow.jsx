@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Card from 'react-bootstrap/Card'
 import magicbook from '../assets/magicbook4.png';
-import {title, firstParagraph,secondParagraph, thirdParagraph, fourthParagraph, fifthParagraph, sixthParagraph, seventhParagraph, eighthParagraph, herFinal, hisFinal} from '../assets/Chapter1/Chapter1Story';
+import './slideStyle.css';
 
 
 const SlideShow = () => {
