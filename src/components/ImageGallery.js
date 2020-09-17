@@ -33,6 +33,7 @@ const SlideShow = () => {
 
     return (
       <div className='containeru'>
+        <h3 className="chroniclesTitle">LuvenChronicles</h3>
         <div className='spellbook'>
         {images != null  &&
         <Card style={{ width: '40%'}}>

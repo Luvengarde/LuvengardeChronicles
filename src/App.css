@@ -2,10 +2,10 @@
     background-image: url(./assets/magicbook3.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
+    background-size: 100vw 80vh;
     position: relative !important;
-    width: 100%;
     padding-top: 67%;
+    height: 100%;
 }
 .card {
     margin: auto;
@@ -35,3 +35,6 @@
     background-repeat: no-repeat;
 }
 
+.chroniclesTitle {
+    text-align: center;
+}
