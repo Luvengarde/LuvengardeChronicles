@@ -16,7 +16,8 @@
     width: auto;
     padding: 0 1% 0 1%;
     max-width: 100%;
-    margin: 0 auto;  
+    margin: 0 auto;
+    filter: contrast(85%) brightness(83%) saturate(130%);  
 }
 .chapter {
     position: absolute !important;
@@ -28,29 +29,30 @@
 .card {
     margin: auto;
     position: absolute !important;
-    top: 13%;
+    top: 30%;
     right: 11%;
     background-color: transparent !important;
     border: none !important;
+    height: 100%;
 }
 .card-body {
     background-color: transparent;
 }
 .card-img-bottom {
-        height: 40vw;
         object-fit: contain;
         max-width: 90%;
         padding-left: 15%;
-        margin-top: 8%;
         filter: contrast(75%) brightness(83%) saturate(60%);
+        height: 60%;
 }
 
 .containeru {
-    background-image: url(./assets/bckg.jpg);
-    background-size: 100vw 100vh;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    
     
 }
 
