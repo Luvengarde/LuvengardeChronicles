@@ -28,6 +28,8 @@
 }
 .card {
     background-image: url(./assets/backgroundd.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin: auto;
     position: absolute !important;
     top: 30%;
@@ -47,6 +49,7 @@
         padding-left: 15%;
         filter: contrast(75%) brightness(83%) saturate(60%);
         height: 60%;
+        width: 40%;
 }
 
 .containeru {
