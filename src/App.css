@@ -1,20 +1,31 @@
-.container{
-    background-image: url(./assets/magicbook.png);
+.spellbook{
+    background-image: url(./assets/magicbook3.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
+    background-position: center top;
+    background-size: contain;
+    height: 900px;
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    box-sizing: content-box;
+    display: flex;
+    width: 80%;
 }
 .card {
     margin: auto;
-    position: absolute;
-    top: 50px;
-    left: 300px;
+    position: absolute !important;
+    top: 13%;
+    right: 11%;
+    background-color: transparent !important;
+    border: none !important;
 }
-
+.card-body {
+    background-color: transparent;
+}
 .card-img-bottom {
         height: 30vw;
-        object-fit: cover;
+        object-fit: contain;
 }
+
+.container {
+    height: 100vh;
+}
+

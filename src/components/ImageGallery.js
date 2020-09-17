@@ -32,15 +32,14 @@ const SlideShow = () => {
   }
 
     return (
-      <div className='container'>
+      <div classname='container'>
+      <div className='spellbook'>
         {images != null  &&
         <Card style={{ width: '40%'}}>
-        <Card.Body>
-        <Card.Title>BfliesInJuly</Card.Title>
-        </Card.Body>
         <Card.Img variant="bottom" src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'/>
         </Card>
         }       
+      </div>
       </div>
       
     );
