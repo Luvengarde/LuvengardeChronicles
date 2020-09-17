@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34e87da27e46144953fb0c2dc650bbd1",
+    "revision": "b6346dcf95f5f585556d8d2c2bcd2ae8",
     "url": "/LuvengardeChronicles/index.html"
   },
   {
-    "revision": "fdf045fcd2dbadef81b6",
+    "revision": "637bd493fc767402eb56",
     "url": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "81b50c96b71f5697254b",
-    "url": "/LuvengardeChronicles/static/css/main.970672f2.chunk.css"
+    "revision": "55394db90eff59fc2e54",
+    "url": "/LuvengardeChronicles/static/css/main.cbb7dfd0.chunk.css"
   },
   {
-    "revision": "fdf045fcd2dbadef81b6",
-    "url": "/LuvengardeChronicles/static/js/2.f2e3951b.chunk.js"
+    "revision": "637bd493fc767402eb56",
+    "url": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/LuvengardeChronicles/static/js/2.f2e3951b.chunk.js.LICENSE.txt"
+    "url": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81b50c96b71f5697254b",
-    "url": "/LuvengardeChronicles/static/js/main.a71c9fe6.chunk.js"
+    "revision": "55394db90eff59fc2e54",
+    "url": "/LuvengardeChronicles/static/js/main.6f3db7b3.chunk.js"
   },
   {
     "revision": "a29b07f650ffac613dee",
