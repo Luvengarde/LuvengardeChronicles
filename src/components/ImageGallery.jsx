@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Card from 'react-bootstrap/Card'
+import magicbook from '../assets/magicbook4.png';
+import {title, firstParagraph,secondParagraph, thirdParagraph, fourthParagraph, fifthParagraph, sixthParagraph, seventhParagraph, eighthParagraph, herFinal, hisFinal} from '../assets/Chapter1/Chapter1Story';
 
 
 const SlideShow = () => {
@@ -30,11 +32,27 @@ const SlideShow = () => {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min)
   }
-
+  
     return (
       <div className='containeru'>
-        <h3 className="chroniclesTitle">LuvenChronicles</h3>
-        <div className='spellbook'>
+        <h5 className="chroniclesTitle">LuvenChronicles</h5>
+          <div className='spellbook'>
+            <img src={magicbook} alt='magicbook'></img>
+              {/* <div className='chapter'> */}
+                {/* <h2 className="chapterTitle">{title}</h2> */}
+                  {/* <div className="story">
+                    <p>{firstParagraph}</p>
+                    <p>{secondParagraph}</p>
+                    <p>{thirdParagraph}</p>
+                    <p>{fourthParagraph}</p>
+                    <p>{fifthParagraph}</p>
+                    <p>{sixthParagraph}</p>
+                    <p>{seventhParagraph}</p>
+                    <p>{eighthParagraph}</p>
+                    <p>{herFinal}</p>
+                    <p>{hisFinal}</p>
+                  </div> */}
+              {/* </div> */}
         {images != null  &&
         <Card style={{ width: '40%'}}>
         <Card.Img variant="bottom" src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'/>

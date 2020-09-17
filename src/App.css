@@ -1,16 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .spellbook{
-    background-image: url(./assets/magicbook3.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100vw 80vh;
     position: relative !important;
-    padding-top: 67%;
-    height: 100%;
+    display: flex;
+    width: max-content;
+    padding: 0 1% 0 1%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    margin-top: -2%;  
+}
+.spellbook img {
+    display: flex;
+    width: auto;
+    padding: 0 1% 0 1%;
+    max-width: 100%;
+    margin: 0 auto;  
+}
+.chapter {
+    position: absolute !important;
+    top: 5%;
+    left: 14%;
+    width: 35%;
+    height: 80%;
 }
 .card {
     margin: auto;
     position: absolute !important;
-    top: 20%;
+    top: 13%;
     right: 11%;
     background-color: transparent !important;
     border: none !important;
@@ -28,13 +46,36 @@
 }
 
 .containeru {
+    background-image: url(./assets/bckg.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    background-image: url(./assets/bckg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    
 }
 
 .chroniclesTitle {
     text-align: center;
+    margin-bottom: 0;
+    font-family: 'Niconne', cursive;
+
 }
+
+/*Writings - keep for further development*/
+
+/* .chapterTitle {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+}
+.story { */
+    /* font-family: 'Niconne', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* display: flex;
+    flex-flow: column wrap; */
+/* }
+ .story p:first-child:first-letter{
+    font-size: 2vw;
+    font-family: 'Niconne', cursive;
+    
+} */
