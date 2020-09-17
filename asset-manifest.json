@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/LuvengardeChronicles/static/css/main.6f937e3b.chunk.css",
-    "main.js": "/LuvengardeChronicles/static/js/main.afb159cc.chunk.js",
-    "main.js.map": "/LuvengardeChronicles/static/js/main.afb159cc.chunk.js.map",
+    "main.css": "/LuvengardeChronicles/static/css/main.11c081ac.chunk.css",
+    "main.js": "/LuvengardeChronicles/static/js/main.0fed6be0.chunk.js",
+    "main.js.map": "/LuvengardeChronicles/static/js/main.0fed6be0.chunk.js.map",
     "runtime-main.js": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js",
     "runtime-main.js.map": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.cf84cd9d.chunk.js": "/LuvengardeChronicles/static/js/2.cf84cd9d.chunk.js",
     "static/js/2.cf84cd9d.chunk.js.map": "/LuvengardeChronicles/static/js/2.cf84cd9d.chunk.js.map",
     "index.html": "/LuvengardeChronicles/index.html",
-    "precache-manifest.f9eb57a55b126724f78a36510d773996.js": "/LuvengardeChronicles/precache-manifest.f9eb57a55b126724f78a36510d773996.js",
+    "precache-manifest.432b0340915bc1d5d2e17d0c2a7d3a15.js": "/LuvengardeChronicles/precache-manifest.432b0340915bc1d5d2e17d0c2a7d3a15.js",
     "service-worker.js": "/LuvengardeChronicles/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.6f937e3b.chunk.css.map": "/LuvengardeChronicles/static/css/main.6f937e3b.chunk.css.map",
+    "static/css/main.11c081ac.chunk.css.map": "/LuvengardeChronicles/static/css/main.11c081ac.chunk.css.map",
     "static/js/2.cf84cd9d.chunk.js.LICENSE.txt": "/LuvengardeChronicles/static/js/2.cf84cd9d.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/LuvengardeChronicles/static/media/bckg.213b6c5c.jpg",
-    "static/media/magicbook4.png": "/LuvengardeChronicles/static/media/magicbook4.1618b18f.png"
+    "static/media/App.css": "/LuvengardeChronicles/static/media/background.e9900a21.jpg",
+    "static/media/magicbook4.png": "/LuvengardeChronicles/static/media/magicbook4.1a1e9734.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5abb13c3.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.cf84cd9d.chunk.js",
-    "static/css/main.6f937e3b.chunk.css",
-    "static/js/main.afb159cc.chunk.js"
+    "static/css/main.11c081ac.chunk.css",
+    "static/js/main.0fed6be0.chunk.js"
   ]
 }
