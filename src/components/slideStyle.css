@@ -38,16 +38,32 @@
     border: none !important;
     width: 36%;
     height: 60%;
+    z-index: 1;
 
 }
 
 .card-img-bottom {
         object-fit: contain;
         max-width: 90%;
-        padding-left: 15%;
         filter: contrast(75%) brightness(83%) saturate(60%);
-        height: 60%;
-        width: 40%;
+        width: 84%;
+        height: 90%;
+        margin: auto;
+        position: absolute;
+        top: 6%;
+        left: 5%;
+}
+.adhesive {
+    background-image: url(../assets/adhesiveTape.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative !important;
+    border: none !important;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    
+
 }
 
 .containeru {

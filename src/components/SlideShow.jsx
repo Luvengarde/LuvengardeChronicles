@@ -54,7 +54,9 @@ const SlideShow = () => {
               {/* </div> */}
         {images != null  &&
         <div className="card">
+            <div className="adhesive">
         <img className="card-img-bottom" src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'/>
+            </div>
         </div>
         }       
         </div>
