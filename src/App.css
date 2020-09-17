@@ -3,16 +3,14 @@
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
-    height: 900px;
-    position: relative;
-    box-sizing: content-box;
-    display: flex;
-    width: 80%;
+    position: relative !important;
+    width: 100%;
+    padding-top: 67%;
 }
 .card {
     margin: auto;
     position: absolute !important;
-    top: 13%;
+    top: 20%;
     right: 11%;
     background-color: transparent !important;
     border: none !important;
@@ -21,11 +19,19 @@
     background-color: transparent;
 }
 .card-img-bottom {
-        height: 30vw;
+        height: 40vw;
         object-fit: contain;
+        max-width: 90%;
+        padding-left: 15%;
+        margin-top: 8%;
+        filter: contrast(75%) brightness(83%) saturate(60%);
 }
 
-.container {
+.containeru {
     height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bckg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
