@@ -23,7 +23,7 @@ const SlideShow = () => {
   }, []);
    
   function changePic(e){
-      e.target.setAttribute('src', `${images[getRandomPic(1, images.length)].original}`);
+      document.getElementsByClassName('card-img-bottom')[0].setAttribute('src', `${images[getRandomPic(1, images.length)].original}`);
   }
 
   function getRandomPic(min, max) {
@@ -37,28 +37,14 @@ const SlideShow = () => {
         <h5 className="chroniclesTitle">LuvenChronicles</h5>
           <div className='spellbook'>
             <img src={magicbook} alt='magicbook'></img>
-              {/* <div className='chapter'> */}
-                {/* <h2 className="chapterTitle">{title}</h2> */}
-                  {/* <div className="story">
-                    <p>{firstParagraph}</p>
-                    <p>{secondParagraph}</p>
-                    <p>{thirdParagraph}</p>
-                    <p>{fourthParagraph}</p>
-                    <p>{fifthParagraph}</p>
-                    <p>{sixthParagraph}</p>
-                    <p>{seventhParagraph}</p>
-                    <p>{eighthParagraph}</p>
-                    <p>{herFinal}</p>
-                    <p>{hisFinal}</p>
-                  </div> */}
-              {/* </div> */}
-        {images != null  &&
-        <div className="card">
-            <div className="adhesive">
-        <img className="card-img-bottom" src={images[getRandomPic(1, images.length)].original} onClick={changePic} alt='woopsie'/>
-            </div>
-        </div>
+                {images != null  &&
+                    <div className="card">
+                        <img className="card-img-bottom" src={images[getRandomPic(1, images.length)].original}  alt='woopsie'/>
+                    </div>
         }       
+                    <div className="adhesive" onClick={changePic}>
+                        
+                    </div>
         </div>
       </div>
       
