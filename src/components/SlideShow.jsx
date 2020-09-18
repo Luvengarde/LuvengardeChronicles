@@ -3,7 +3,7 @@ import axios from "axios";
 import magicbook from '../assets/magicbook4.png';
 import './slideStyle.css';
 import Sound from 'react-sound';
-import wuha from '../assets/magic.mp3';
+import wuha from '../assets/magic1.mp3';
 
 
 const SlideShow = () => {
