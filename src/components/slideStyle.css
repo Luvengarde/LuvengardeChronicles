@@ -28,7 +28,7 @@
 }
 .card {
     background-image: url(../assets/backgrounddd.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute !important;
     top: 31%;
@@ -49,7 +49,7 @@
         height: 100%;
         margin: auto;
         position: absolute;
-        bottom: .3%;
+        bottom: auto;
         right: 8%;
         z-index: 2;
         padding: 4% 0;
