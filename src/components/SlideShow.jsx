@@ -48,6 +48,7 @@ const SlideShow = () => {
       autoLoad={true}
       loop={true}
       volume={50}
+      ignoreMobileRestrictions={true}
       />
         <h5 className="chroniclesTitle">Chronicles of Luvengarde</h5>
           <div className='spellbook' onClick={showImages}>
@@ -58,7 +59,7 @@ const SlideShow = () => {
                         <img className="card-img-bottom" src=''  alt='Do not touch'/>
                         {sixMonths !== false &&
                     <div className='sixMonths'>
-                    <p>Happy unofficial 6 months anniversary, my magic!</p>
+                    <p>Happy unofficial 6 months anniversary, my magic love!</p>
                     </div>
                     }
                     </div>
