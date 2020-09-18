@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import magicbook from '../assets/magicbook4.png';
 import './slideStyle.css';
+import Sound from 'react-sound';
+import wuha from '../assets/magic.mp3';
 
 
 const SlideShow = () => {
@@ -40,6 +42,13 @@ const SlideShow = () => {
   
     return (
       <div className='containeru'>
+        <Sound
+      url={wuha}
+      playStatus={Sound.status.PLAYING}
+      autoLoad={true}
+      loop={true}
+      volume={50}
+      />
         <h5 className="chroniclesTitle">Chronicles of Luvengarde</h5>
           <div className='spellbook' onClick={showImages}>
             <img src={magicbook} alt='magicbook'></img>
@@ -47,16 +56,18 @@ const SlideShow = () => {
                     <div className='wrapper'>
                     <div className="card">
                         <img className="card-img-bottom" src=''  alt='Do not touch'/>
+                        {sixMonths !== false &&
+                    <div className='sixMonths'>
+                    <p>Happy unofficial 6 months anniversary, my magic!</p>
                     </div>
+                    }
+                    </div>
+                    
                     <div className="adhesive" onClick={changePic}></div>
                   </div>
                 }
 
-                    {sixMonths !== false &&
-                    <div className='sixMonths'>
-                    <p>Happy unofficial 6 months anniversary, my magic!</p>
-                    </div>
-                  }
+                    
         </div>
       </div>
       
