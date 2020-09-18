@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LuvengardeChronicles/static/css/main.fd04af0c.chunk.css",
+    "main.css": "/LuvengardeChronicles/static/css/main.d77c5113.chunk.css",
     "main.js": "/LuvengardeChronicles/static/js/main.0f238bf4.chunk.js",
     "main.js.map": "/LuvengardeChronicles/static/js/main.0f238bf4.chunk.js.map",
     "runtime-main.js": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js",
@@ -9,10 +9,10 @@
     "static/js/2.7874489f.chunk.js": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js",
     "static/js/2.7874489f.chunk.js.map": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js.map",
     "index.html": "/LuvengardeChronicles/index.html",
-    "precache-manifest.8e0008f4780c8e22cd4764c43dd9cdc9.js": "/LuvengardeChronicles/precache-manifest.8e0008f4780c8e22cd4764c43dd9cdc9.js",
+    "precache-manifest.ff389e8857a886e27508637cf96648cd.js": "/LuvengardeChronicles/precache-manifest.ff389e8857a886e27508637cf96648cd.js",
     "service-worker.js": "/LuvengardeChronicles/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.fd04af0c.chunk.css.map": "/LuvengardeChronicles/static/css/main.fd04af0c.chunk.css.map",
+    "static/css/main.d77c5113.chunk.css.map": "/LuvengardeChronicles/static/css/main.d77c5113.chunk.css.map",
     "static/js/2.7874489f.chunk.js.LICENSE.txt": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js.LICENSE.txt",
     "static/media/slideStyle.css": "/LuvengardeChronicles/static/media/ducttape.f2fdb928.png",
     "static/media/magicbook4.png": "/LuvengardeChronicles/static/media/magicbook4.1a1e9734.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.5abb13c3.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.7874489f.chunk.js",
-    "static/css/main.fd04af0c.chunk.css",
+    "static/css/main.d77c5113.chunk.css",
     "static/js/main.0f238bf4.chunk.js"
   ]
 }
