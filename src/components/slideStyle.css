@@ -30,14 +30,13 @@
     background-image: url(../assets/backgrounddd.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: auto;
     position: absolute !important;
-    top: 30%;
-    right: 12%;
+    top: 31%;
+    right: 17%;
     background-color: transparent !important;
     border: none !important;
-    width: 36%;
-    height: 60%;
+    width: 25%;
+    height: 55%;
     z-index: 1;
 
 }
@@ -53,19 +52,20 @@
         bottom: .3%;
         right: 8%;
         z-index: 2;
+        padding: 4% 0;
 }
 .adhesive {
     background-image: url(../assets/ducttape.png);
-    background-size: 100% 100%;
+    background-size: 90% 100%;
     background-repeat: no-repeat;
     margin: auto;
     position: absolute !important;
-    top: 29%;
-    right: 11.5%;
+    top: 28.5%;
+    right: 13.5%;
     background-color: transparent !important;
     border: none !important;
-    width: 38%;
-    height: 62%;
+    width: 30%;
+    height: 61%;
     z-index: 999;
 
 }
