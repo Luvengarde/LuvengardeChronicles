@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d82f49c9b581b03c2035d31971cac36",
+    "revision": "c9cd66498e02494774d0d737da87f7c3",
     "url": "/LuvengardeChronicles/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "2b5adfd178b324f8a34f",
+    "revision": "44bb4d3fd175f883c699",
     "url": "/LuvengardeChronicles/static/css/main.584a9636.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LuvengardeChronicles/static/js/2.72ab5588.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b5adfd178b324f8a34f",
-    "url": "/LuvengardeChronicles/static/js/main.de57cc77.chunk.js"
+    "revision": "44bb4d3fd175f883c699",
+    "url": "/LuvengardeChronicles/static/js/main.84537dbe.chunk.js"
   },
   {
     "revision": "a29b07f650ffac613dee",
