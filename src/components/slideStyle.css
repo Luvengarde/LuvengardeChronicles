@@ -129,3 +129,10 @@
     opacity: 0;
     transition: opacity 0.5s;
   }
+
+  .sixMonths{
+      position: absolute;
+      bottom: 6.5%;
+      right: 17%;
+      font-family: 'Niconne', cursive;
+  }
