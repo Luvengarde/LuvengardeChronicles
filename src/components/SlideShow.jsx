@@ -6,6 +6,8 @@ import './slideStyle.css';
 
 const SlideShow = () => {
   const [images, setImages] = useState(null);
+  const [sixMonths, setsixMonths] = useState(false)
+  const [imageContainer, setimageContainer] = useState(false)
   
   useEffect(() => {
     const fetchData = async () => {
@@ -24,6 +26,10 @@ const SlideShow = () => {
    
   function changePic(e){
       document.getElementsByClassName('card-img-bottom')[0].setAttribute('src', `${images[getRandomPic(1, images.length)].original}`);
+      setsixMonths(true);
+  }
+  function showImages(){
+    setimageContainer(true);
   }
 
   function getRandomPic(min, max) {
@@ -35,17 +41,22 @@ const SlideShow = () => {
     return (
       <div className='containeru'>
         <h5 className="chroniclesTitle">Chronicles of Luvengarde</h5>
-          <div className='spellbook'>
+          <div className='spellbook' onClick={showImages}>
             <img src={magicbook} alt='magicbook'></img>
-                {images != null  &&
+                {images != null  && imageContainer !==false &&
+                    <div className='wrapper'>
                     <div className="card">
-                        <img className="card-img-bottom" src={images[getRandomPic(1, images.length)].original}  alt='woopsie'/>
+                        <img className="card-img-bottom" src=''  alt='Do not touch'/>
                     </div>
-                }       
                     <div className="adhesive" onClick={changePic}></div>
+                  </div>
+                }
+
+                    {sixMonths !== false &&
                     <div className='sixMonths'>
                     <p>Happy unofficial 6 months anniversary, my magic!</p>
                     </div>
+                  }
         </div>
       </div>
       
