@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af58a2304a6c2444f8adfc1b793f4660",
+    "revision": "b1704c9653ba82f8278521f57040c05a",
     "url": "/LuvengardeChronicles/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LuvengardeChronicles/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "f57db8b84e8094934b3a",
-    "url": "/LuvengardeChronicles/static/css/main.63de2ae5.chunk.css"
+    "revision": "106cd505b9bb384aad81",
+    "url": "/LuvengardeChronicles/static/css/main.2821a759.chunk.css"
   },
   {
     "revision": "637bd493fc767402eb56",
@@ -20,24 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LuvengardeChronicles/static/js/2.7874489f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f57db8b84e8094934b3a",
-    "url": "/LuvengardeChronicles/static/js/main.10a5c4e7.chunk.js"
+    "revision": "106cd505b9bb384aad81",
+    "url": "/LuvengardeChronicles/static/js/main.0f238bf4.chunk.js"
   },
   {
     "revision": "a29b07f650ffac613dee",
     "url": "/LuvengardeChronicles/static/js/runtime-main.5abb13c3.js"
   },
   {
-    "revision": "ff627b8c34881ab09aa4c3bbeedafe27",
-    "url": "/LuvengardeChronicles/static/media/adhesiveTape.ff627b8c.png"
-  },
-  {
     "revision": "e9900a2165f71b668ca8c8d07ee1f0d7",
     "url": "/LuvengardeChronicles/static/media/background.e9900a21.jpg"
   },
   {
-    "revision": "8d1d86cedf752c57d90bf24ea594dc1f",
-    "url": "/LuvengardeChronicles/static/media/backgroundd.8d1d86ce.png"
+    "revision": "f2fdb92870ee6148894e1bc5a7c7b42f",
+    "url": "/LuvengardeChronicles/static/media/ducttape.f2fdb928.png"
   },
   {
     "revision": "1a1e97347f755bb22dcf733173b1fbb9",
