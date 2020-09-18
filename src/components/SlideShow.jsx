@@ -34,7 +34,7 @@ const SlideShow = () => {
   
     return (
       <div className='containeru'>
-        <h5 className="chroniclesTitle">LuvenChronicles</h5>
+        <h5 className="chroniclesTitle">Chronicles of Luvengarde</h5>
           <div className='spellbook'>
             <img src={magicbook} alt='magicbook'></img>
                 {images != null  &&

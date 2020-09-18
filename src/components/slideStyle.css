@@ -27,13 +27,13 @@
     height: 80%;
 }
 .card {
-    background-image: url(../assets/backgroundd.png);
+    background-image: url(../assets/backgrounddd.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
     position: absolute !important;
     top: 30%;
-    right: 11%;
+    right: 12%;
     background-color: transparent !important;
     border: none !important;
     width: 36%;
@@ -46,28 +46,26 @@
         object-fit: contain;
         max-width: 90%;
         filter: contrast(75%) brightness(83%) saturate(60%);
-        width: 84% !important;
-        height: 90%;
+        width: 90% !important;
+        height: 100%;
         margin: auto;
         position: absolute;
-        top: 6%;
-        left: 5%;
+        bottom: .3%;
+        right: 8%;
         z-index: 2;
 }
 .adhesive {
-    background-image: url(../assets/adhesiveTape.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(../assets/ducttape.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
     position: absolute !important;
-    top: 30%;
-    right: 11%;
+    top: 29%;
+    right: 11.5%;
     background-color: transparent !important;
     border: none !important;
-    width: 36%;
-    height: 60%;
+    width: 38%;
+    height: 62%;
     z-index: 999;
 
 }
